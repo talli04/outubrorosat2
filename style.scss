@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+}
+header {
+    background-color: #FF69B4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    height: 15vh; 
+    
+    .caixaLogo{
+      padding: 2%;
+    }
+
+    .logo-title {
+    display: flex;
+    align-items: center;
+  }
+    .imagemlogo {
+    width: 5vw;
+    margin-right: 10px;
+  }
+    h1 {
+    font-size: 90%;
+    color: white;
+  }
+  }
+  
+  nav {
+    width: 30%;
+    display: flex;
+    
+    ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+    li {
+    padding: 0 15px;
+    
+    a{
+        color: white;
+    }
+  }
+  }
+  
+main{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px red;
+    background: #ffd9ec;
+    flex-direction: column;
+    
+    .container {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;            
+    width: 100%;     
+  }
+  
+  p {
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    padding: 5%;      
+  }
+  
+  .imgMao {
+    width: 29vw;
+    height: 55vh;
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+  }
+   .caixa2{
+  background-color: #FF69B4;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+ .imgs{
+    background-color: #ffd9ec;
+    justify-content:space-evenly;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+  }
+}
+footer{
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+
+  .caixaP{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 50%;
+  }
+}
+
+ 
+
+  
+
+  
