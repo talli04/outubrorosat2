@@ -112,4 +112,9 @@ footer .caixaP {
     font-size: 20px;
     text-align: center;
   }
+  .imgs {
+    height: 80%;
+    flex-direction: column;
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */
